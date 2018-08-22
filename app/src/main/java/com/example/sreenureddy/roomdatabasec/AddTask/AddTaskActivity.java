@@ -28,6 +28,7 @@ public class AddTaskActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 saveTask();
+                Toast.makeText(getApplicationContext(),"calling Asyc button to get details..",Toast.LENGTH_LONG).show();
             }
         });
 
